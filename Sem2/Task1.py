@@ -3,7 +3,13 @@
 # *Пример:*
 # - Для N = 5: 1, -3, 9, -27, 81
 
-n = int(input())
-for i in range(n-1):
-    print((-3) ** i, end=',')
-print((-3)**(i+1))
+# n = int(input())
+# for i in range(n-1):
+#     print((-3) ** i, end=',')
+#  print((-3)**(i+1))
+
+n = int(input('Введите целое число n= '))
+list = []
+for i in range(n):
+    list.append((-3) ** i)
+print(list)
