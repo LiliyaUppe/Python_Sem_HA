@@ -35,3 +35,20 @@ print(f' {float_list} => {diff_max_min(get_fractional_part(float_list))}')
 #    listsplit.append(list[i]-int(list[i]))
 # print (listsplit)
 # print(max(listsplit), '-', min(listsplit), '=', max(listsplit)-min(listsplit))
+
+#teacher
+
+def separate_fraction(num: float) -> float:
+    """separate intager and float"""
+    list_num = str(num).split('.')
+    return float('0.'+list_num[1])
+
+def max_vs_min_fraction(num_list: list[float]) -> float:
+    """return max_vs_min"""
+    new_list = [separate_fraction(i) for i in num_list if int(i) != float(i)]
+    print(new_list)
+    return max(new_list) - min(new_list)
+
+
+example = [1.1, 1.2, 3.1, 5, 10.001]
+print(max_vs_min_fraction(example))
