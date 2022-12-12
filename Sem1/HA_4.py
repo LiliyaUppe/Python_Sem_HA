@@ -2,19 +2,19 @@
 # показывает диапазон возможных координат точек в этой четверти (x и y).
 
 # my variant
-a = int(input('введите номер четверти: '))
-if (a==1):
-    print('x ∈ (0; +∞)')
-    print('y ∈ (0; +∞)')
-elif (a==2):
-    print('x ∈ (-∞; 0)') 
-    print('y ∈ (0; +∞)')
-elif (a==3):
-   print('x ∈ (-∞; 0)')
-   print('y ∈ (-∞; 0)')
-elif (a==4):
-   print('x ∈ (0; +∞)')
-   print('y ∈ (-∞; 0)')
+# a = int(input('введите номер четверти: '))
+# if (a==1):
+#     print('x ∈ (0; +∞)')
+#     print('y ∈ (0; +∞)')
+# elif (a==2):
+#     print('x ∈ (-∞; 0)') 
+#     print('y ∈ (0; +∞)')
+# elif (a==3):
+#    print('x ∈ (-∞; 0)')
+#    print('y ∈ (-∞; 0)')
+# elif (a==4):
+#    print('x ∈ (0; +∞)')
+#    print('y ∈ (-∞; 0)')
 
 # teacher variant
 # dictionary method
