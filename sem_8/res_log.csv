@@ -1,0 +1,6 @@
+ Task: 8+9; Result: 17
+ Task: 9*x**4+7*x**4+3*x**3-x**3+3; Result: 16*x**4 + 2*x**3 + 3
+ Task: x**2 - 1; Result: [-1, 1]
+ Task: 8+9; Result: 17
+ Task: x+1; Result: [-1]
+ Task: 3*x**4+45*x**4+1; Result: 48*x**4 + 1
