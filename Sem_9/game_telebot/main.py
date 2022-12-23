@@ -1,5 +1,5 @@
 import telebot
-import cnfg 
+#import cnfg 
 import random
 
 bot = telebot.TeleBot('Вставьте ваш ТОКЕН')
