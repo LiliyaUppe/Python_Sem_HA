@@ -2,7 +2,7 @@ import telebot
 import cnfg 
 import random
 
-bot = telebot.TeleBot(cnfg.TOKEN)
+bot = telebot.TeleBot('Вставьте ваш ТОКЕН')
 
 candies: int
 choise = []
