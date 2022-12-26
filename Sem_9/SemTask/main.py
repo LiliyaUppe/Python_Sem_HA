@@ -4,7 +4,7 @@
 import telebot
 import config
 import model
-bot = telebot.TeleBot(config.TOKEN)
+bot = telebot.TeleBot('Вставьте ваш ТОКЕН')
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
